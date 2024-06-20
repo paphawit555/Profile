@@ -1,0 +1,41 @@
+div.profile_detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+img {
+    border-radius: 120px;
+}
+
+div.profile_card {
+    margin-left: 24px;
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+div.profile_table {
+    display: flex;
+    justify-content: center;
+
+    div.profile_table_detail {
+        h2 {
+            font-size: 20px;
+        }
+
+        table {
+            border: solid rgb(144, 140, 140);
+            padding: 24px;
+            text-align: center;
+        }
+
+        td {
+            border: solid rgb(140, 134, 134);
+            width: 200px;
+        }
+    }
+}
